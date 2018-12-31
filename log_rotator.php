@@ -97,6 +97,9 @@ $settings_file = basename(__FILE__, '.php') . "_settings.php";
   {
     include($settings_file);
     logAddLine('All settings applied from ' . $settings_file, 'i');
+
+    //So here we will check logfile(s) from settings if we have anything to rotate.
+
   }
   else
   {
